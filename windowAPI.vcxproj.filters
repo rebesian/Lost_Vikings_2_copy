@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="2DGameFramework">
+      <UniqueIdentifier>{d4228325-ab86-4575-8d38-59949d73a0ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround">
+      <UniqueIdentifier>{84513b37-b08c-49e4-bd15-6f8f6752b18e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\SingletonBase">
+      <UniqueIdentifier>{8785790c-f93f-411d-90ff-bd2e05bd6334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Manager">
+      <UniqueIdentifier>{ddfb3dc3-ec5a-4752-880c-db14429b78a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\image">
+      <UniqueIdentifier>{73affc36-76a7-43ee-9dc2-13a65e5a5209}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\Utils">
+      <UniqueIdentifier>{dbe4a488-41b4-49cf-8cff-49dbace1d532}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\progressBar">
+      <UniqueIdentifier>{9a0b5f25-5b01-4b62-adf0-250e9c46acef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\txtData">
+      <UniqueIdentifier>{b0748259-6cd0-418a-aed2-412f85d75813}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\player">
+      <UniqueIdentifier>{2bddf0be-cfaf-4048-a5b3-f7c2738f388a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\statePatten">
+      <UniqueIdentifier>{692d2567-cf2b-45fd-a675-9d1fbff57657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DGameFramework\time">
+      <UniqueIdentifier>{f876c86a-57d9-4027-acb1-b2bbe6841931}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Collision">
+      <UniqueIdentifier>{2e971f69-83b8-47e5-9066-e3509fc9e253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="playGround\Collision\object">
+      <UniqueIdentifier>{71dcfe79-c0e8-466c-987c-b713fcab574d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DGameFramework</Filter>
+    </ClInclude>
+    <ClInclude Include="playGround.h">
+      <Filter>playGround</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DGameFramework\SingletonBase</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="image.h">
+      <Filter>2DGameFramework\image</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="imageManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="progressBar.h">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClInclude>
+    <ClInclude Include="player.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="statepatten.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="movestate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="idlestate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="fallingstate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="jumpstate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="cameraManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timeManager.h">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>2DGameFramework\time</Filter>
+    </ClInclude>
+    <ClInclude Include="pixelCollision.h">
+      <Filter>playGround\Collision</Filter>
+    </ClInclude>
+    <ClInclude Include="objectManager.h">
+      <Filter>playGround\Collision\object</Filter>
+    </ClInclude>
+    <ClInclude Include="object.h">
+      <Filter>playGround\Collision\object</Filter>
+    </ClInclude>
+    <ClInclude Include="item.h">
+      <Filter>playGround\Collision\object</Filter>
+    </ClInclude>
+    <ClInclude Include="playerManager.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Olaf.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bealog.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="Erik.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="smallolaf.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="labberstate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="ropestate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="deadstate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="Swimstate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="bealogatteck.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="gargolee.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="gargoleeaction.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+    <ClInclude Include="pirate.h">
+      <Filter>playGround\player</Filter>
+    </ClInclude>
+    <ClInclude Include="cannonbullet.h">
+      <Filter>playGround\Collision\object</Filter>
+    </ClInclude>
+    <ClInclude Include="damagestate.h">
+      <Filter>playGround\statePatten</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="winMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DGameFramework</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="image.cpp">
+      <Filter>2DGameFramework\image</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>2DGameFramework\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="imageManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="progressBar.cpp">
+      <Filter>2DGameFramework\progressBar</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DGameFramework\txtData</Filter>
+    </ClCompile>
+    <ClCompile Include="player.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="movestate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="idlestate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="fallingstate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="jumpstate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="cameraManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timeManager.cpp">
+      <Filter>2DGameFramework\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="timer.cpp">
+      <Filter>2DGameFramework\time</Filter>
+    </ClCompile>
+    <ClCompile Include="pixelCollision.cpp">
+      <Filter>playGround\Collision</Filter>
+    </ClCompile>
+    <ClCompile Include="objectManager.cpp">
+      <Filter>playGround\Collision\object</Filter>
+    </ClCompile>
+    <ClCompile Include="object.cpp">
+      <Filter>playGround\Collision\object</Filter>
+    </ClCompile>
+    <ClCompile Include="item.cpp">
+      <Filter>playGround\Collision\object</Filter>
+    </ClCompile>
+    <ClCompile Include="playerManager.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Olaf.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bealog.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="Erik.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="smallolaf.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="labberstate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="ropestate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="deadstate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="Swimstate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="playGround.cpp">
+      <Filter>playGround</Filter>
+    </ClCompile>
+    <ClCompile Include="bealogatteck.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="gargolee.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="gargoleeaction.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+    <ClCompile Include="pirate.cpp">
+      <Filter>playGround\player</Filter>
+    </ClCompile>
+    <ClCompile Include="cannonbullet.cpp">
+      <Filter>playGround\Collision\object</Filter>
+    </ClCompile>
+    <ClCompile Include="damagestate.cpp">
+      <Filter>playGround\statePatten</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="windowAPI.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="windowAPI.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
